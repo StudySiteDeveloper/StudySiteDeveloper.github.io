@@ -334,10 +334,11 @@ ul{
         position: absolute;
     }
     #header h1 a{
-        font-size: 40px;
+        font-size: 30px;
         margin: 0;
         padding: 0;
         display: inline;
+        width: 10px;
     }
     #header div p{
         margin-left: 20px;
@@ -360,8 +361,8 @@ ul{
     .burger{
         float: right;
         display: block !important;
-        margin-top: 45px;
-        margin-right: 10px;
+        position: relative;
+        left: 90%;
     }
 
     .paragraph{

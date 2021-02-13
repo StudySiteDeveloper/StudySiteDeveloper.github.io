@@ -366,6 +366,10 @@ ul{
     }
 
     .paragraph{
-        font-size: 15px !important;
+        font-size: 17px !important;
+    }
+
+    .container{
+      width: 100%;
     }
 }

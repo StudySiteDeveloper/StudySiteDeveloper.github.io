@@ -1,10 +1,6 @@
 /* ctrl + alt + c color picker*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-@media only screen and (max-device-width:768px){
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait){
     #header h1{
         text-align: center;
         float: none;
@@ -24,7 +20,6 @@
         width: 150%;
         transform: translate(-23%);
     }
-
     .nav-links{
         right: 0;
         top: 8vh;
@@ -45,6 +40,11 @@
     .paragraph{
         font-size: 15px !important;
     }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Georgia, "Times New Roman";

@@ -1,10 +1,52 @@
 /* ctrl + alt + c color picker*/
+
+@media only screen and (max-width: 768px) { !important
+    #header h1{
+        text-align: center;
+        float: none;
+    }
+    #header h1 a{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    #header div p{
+        margin-left: 20px;
+        padding-top: 0;
+    }
+    #header-container{
+        display: flex;
+        justify-content: space-around;
+        width: 150%;
+        transform: translate(-23%);
+    }
+    .nav-links{
+        right: 0;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+    .nav-links li{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .paragraph{
+        font-size: 15px !important;
+    }
+}
+/*
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Georgia, "Times New Roman";
     overflow-x: hidden;
@@ -26,7 +68,7 @@ ul{
 
 #header{
     background-color: #b86b4b;
-    min-height: 110px;
+    min-height: 130px;
     width: 100%;
 }
 #header h1{
@@ -127,7 +169,7 @@ ul{
     margin: auto;
     width: 62.5%;
     background: #f7f6ed;
-    box-shadow: 0 0 20px #8f8f8f;+
+    box-shadow: 0 0 20px #8f8f8f;
     text-align: center;
     display: block;
     min-width: 320px;
@@ -325,50 +367,4 @@ ul{
 }
 #footer p a:hover{
     color: #28a3eb;
-}
-
-@media screen and (max-width:768px){
-    #header h1{
-        text-align: center;
-        float: none;
-        position: absolute;
-    }
-    #header h1 a{
-        font-size: 40px;
-        margin: 0;
-        padding: 0;
-        display: inline;
-    }
-    #header div p{
-        margin-left: 20px;
-        padding-top: 0;
-    }
-
-    .nav-links{
-        right: 0;
-        top: 8vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        display: none;
-    }
-    .nav-links li{
-        width: 100%;
-    }
-
-    .burger{
-        float: right;
-        display: block !important;
-        margin-top: 45px;
-        margin-right: 10px;
-    }
-
-    .paragraph{
-        font-size: 17px !important;
-    }
-
-    .container{
-      width: 100%;
-    }
 }

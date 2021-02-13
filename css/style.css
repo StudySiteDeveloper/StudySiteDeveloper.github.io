@@ -340,9 +340,9 @@ ul{
         display: inline;
         width: 10px;
     }
-    #header div p{
+    #header p{
         margin-left: 20px;
-        padding-top: 0;
+        padding-top: 70px;
     }
 
     .nav-links{
